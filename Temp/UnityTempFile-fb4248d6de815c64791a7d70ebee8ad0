@@ -1,12 +1,12 @@
 -debug
 -target:library
 -nowarn:0169
--out:'Temp/Assembly-CSharp.dll'
--r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll'
--r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
--r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
--r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
--r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_4_OR_NEWER
 -define:UNITY_5_4_0
@@ -81,15 +81,15 @@
 -define:UNITY_ASSERTIONS
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_64
--define:UNITY_EDITOR_OSX
+-define:UNITY_EDITOR_WIN
 -define:UNITY_TEAM_LICENSE
 -define:CROSS_PLATFORM_INPUT
-'Assets/Script/DisableRemotePlayerBehaviors.cs'
-'Assets/Script/GameManagerScript.cs'
-'Assets/Script/GameProcessEnumScript.cs'
-'Assets/Script/NetworkManager_custom.cs'
-'Assets/Script/PocketBehaviourScript.cs'
-'Assets/Script/ballBehaviourScript.cs'
-'Assets/Script/enumScript.cs'
--r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
--r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
+Assets/Script/DisableRemotePlayerBehaviors.cs
+Assets/Script/GameManagerScript.cs
+Assets/Script/GameProcessEnumScript.cs
+Assets/Script/NetworkManager_Custom.cs
+Assets/Script/PocketBehaviourScript.cs
+Assets/Script/ballBehaviourScript.cs
+Assets/Script/enumScript.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
