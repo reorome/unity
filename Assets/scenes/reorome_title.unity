@@ -493,7 +493,7 @@ MonoBehaviour:
   m_AutoCreatePlayer: 1
   m_PlayerSpawnMethod: 1
   m_OfflineScene: playmode
-  m_OnlineScene: sample
+  m_OnlineScene: reorome_game
   m_SpawnPrefabs: []
   m_CustomConfig: 1
   m_MaxConnections: 2
