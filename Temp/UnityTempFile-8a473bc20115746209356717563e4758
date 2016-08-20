@@ -87,6 +87,7 @@
 'Assets/Script/DisableRemotePlayerBehaviors.cs'
 'Assets/Script/GameManagerScript.cs'
 'Assets/Script/GameProcessEnumScript.cs'
+'Assets/Script/NetworkManager_Custom.cs'
 'Assets/Script/PocketBehaviourScript.cs'
 'Assets/Script/ballBehaviourScript.cs'
 'Assets/Script/enumScript.cs'

@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A40A9455-4340-3884-4767-0172836C6134}</ProjectGuid>
+    <ProjectGuid>{C3DA89E1-70C6-7D6C-993E-C8F831D35880}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,9 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DisableRemotePlayerBehaviors.cs" />
+     <Compile Include="Assets\Script\DisableRemotePlayerBehaviors.cs" />
      <Compile Include="Assets\Script\GameManagerScript.cs" />
      <Compile Include="Assets\Script\GameProcessEnumScript.cs" />
+     <Compile Include="Assets\Script\NetworkManager_Custom.cs" />
      <Compile Include="Assets\Script\PocketBehaviourScript.cs" />
      <Compile Include="Assets\Script\ballBehaviourScript.cs" />
      <Compile Include="Assets\Script\enumScript.cs" />
@@ -64,7 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{F39945AC-3B5F-DC5D-E51C-3A180A01BB9A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{518622B2-9050-A153-E465-3E4BD155181A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
