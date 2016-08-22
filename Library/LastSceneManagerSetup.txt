@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/playmode.unity
+- path: Assets/scenes/reorome_title.unity
   isLoaded: 1
   isActive: 1

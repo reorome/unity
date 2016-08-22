@@ -8,8 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/reorome_title.unity
   - enabled: 1
+    path: Assets/scenes/reorome_game.unity
+  - enabled: 1
+    path: Assets/scenes/ball.unity
+  - enabled: 0
     path: Assets/scenes/sample.unity
   - enabled: 1
     path: Assets/scenes/playmode.unity
-  - enabled: 1
-    path: Assets/scenes/ball.unity
