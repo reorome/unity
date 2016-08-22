@@ -1,10 +1,27 @@
-Temp/
-Obj/
-Build/
-Library/
-*.pidb
+Library/*
+Temp/*
+Obj/*
+Build/*
+Builds/*
+/Assets/AssetStoreTools*
+*.csproj
 *.unityproj
 *.sln
+*.suo
+*.tmp
+*.user
 *.userprefs
-*.swp
-*.csproj
+*.pidb
+*.booproj
+*.svd
+
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.unitypackage

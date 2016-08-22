@@ -1,10 +1,15 @@
-﻿#pragma strict
+﻿using UnityEngine;
+using System.Collections;
 
-function Start () {
+public class cue_BehaviourScriptNewBehaviourScript : MonoBehaviour {
 
-}
-
-function Update () {
+	// Use this for initialization
+	void Start () {
+	
+	}
+	
+	void Update () {
+		this.transform.Rotate(1, 1, 1);
 		Vector3 v = this.transform.position;
 		if (Input.GetKey(KeyCode.LeftArrow)){
 			v.x -= 0.05f;
@@ -19,4 +24,5 @@ function Update () {
 			v.z -= 0.05f;
 		}
 		this.transform.position = v;
+	}
 }
