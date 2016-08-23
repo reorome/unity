@@ -1,9 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/cue_BehaviourScriptNewBehaviourScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Cue_BehaviourScript.cs">
     <Files>
-      <File FileName="Assets/Script/ballBehaviourScript.cs" Line="30" Column="3" />
-      <File FileName="Assets/Script/cue_BehaviourScriptNewBehaviourScript.cs" Line="14" Column="13" />
+      <File FileName="Assets\Script\ballBehaviourScript.cs" Line="8" Column="32" />
+      <File FileName="Assets\Script\Cue_BehaviourScript.cs" Line="4" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
