@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/scenes/playmode.unity
-  isLoaded: 1
-  isActive: 1
