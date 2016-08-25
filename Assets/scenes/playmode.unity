@@ -702,7 +702,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 784914442}
   m_LocalRotation: {x: 0.5583159, y: 0.43391636, z: -0.5583159, w: 0.43391636}
-  m_LocalPosition: {x: 0.167, y: 0.932, z: -0.401}
+  m_LocalPosition: {x: 0.344, y: 1.09, z: -0.401}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 15, y: 90, z: 0}
   m_Children: []
@@ -1092,7 +1092,7 @@ GameObject:
   - 65: {fileID: 1062810985}
   - 23: {fileID: 1062810984}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: saka
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1967,6 +1967,21 @@ Prefab:
       propertyPath: m_Name
       value: Sphere_ball_1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 54000011382510384, guid: ba579697a570848d5b70600a70d9bd73,
+        type: 2}
+      propertyPath: m_Mass
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 54000011382510384, guid: ba579697a570848d5b70600a70d9bd73,
+        type: 2}
+      propertyPath: m_Drag
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 54000011382510384, guid: ba579697a570848d5b70600a70d9bd73,
+        type: 2}
+      propertyPath: m_AngularDrag
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 135000012473441658, guid: ba579697a570848d5b70600a70d9bd73, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: ba579697a570848d5b70600a70d9bd73, type: 2}
@@ -2106,6 +2121,21 @@ Prefab:
     - target: {fileID: 1000013227508974, guid: ba579697a570848d5b70600a70d9bd73, type: 2}
       propertyPath: m_Name
       value: Sphere_ball_1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 54000011382510384, guid: ba579697a570848d5b70600a70d9bd73,
+        type: 2}
+      propertyPath: m_Mass
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 54000011382510384, guid: ba579697a570848d5b70600a70d9bd73,
+        type: 2}
+      propertyPath: m_Drag
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 54000011382510384, guid: ba579697a570848d5b70600a70d9bd73,
+        type: 2}
+      propertyPath: m_AngularDrag
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 135000012473441658, guid: ba579697a570848d5b70600a70d9bd73, type: 2}
